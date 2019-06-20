@@ -21,7 +21,8 @@ class MoviesController {
         view('movies.movie-add');
     }
 
-    public function dealAdd() {
+    public function save() {
+        
         dump($_POST);
     }
 

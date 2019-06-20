@@ -1,5 +1,7 @@
 <?php
-
+function redirectTo($route) {
+    Header('Location: ' . url($route));
+}
 function url($route) {
     return BASE_URL . '/'. $route;
 }
